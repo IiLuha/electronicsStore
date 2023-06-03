@@ -7,7 +7,6 @@ import com.itdev.electronicsstore.dto.create.HardDiskCreateEditDto;
 import com.itdev.electronicsstore.dto.create.LaptopCreateEditDto;
 import com.itdev.electronicsstore.dto.create.MonitorCreateEditDto;
 import com.itdev.electronicsstore.dto.create.ProductCreateEditDto;
-import com.itdev.electronicsstore.dto.read.DesktopComputerReadDto;
 import com.itdev.electronicsstore.dto.read.HardDiskReadDto;
 import com.itdev.electronicsstore.dto.read.ProductReadDto;
 import com.itdev.electronicsstore.service.DesktopComputerService;

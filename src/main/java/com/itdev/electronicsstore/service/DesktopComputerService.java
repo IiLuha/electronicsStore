@@ -1,13 +1,10 @@
 package com.itdev.electronicsstore.service;
 
 import com.itdev.electronicsstore.database.dao.repositories.DesktopComputerRepository;
-import com.itdev.electronicsstore.database.dao.repositories.HardDiskRepository;
 import com.itdev.electronicsstore.dto.create.DesktopComputerCreateEditDto;
 import com.itdev.electronicsstore.dto.read.DesktopComputerReadDto;
 import com.itdev.electronicsstore.mapper.create.DesktopComputerCreateEditMapper;
-import com.itdev.electronicsstore.mapper.create.HardDiskCreateEditMapper;
 import com.itdev.electronicsstore.mapper.read.DesktopComputerReadMapper;
-import com.itdev.electronicsstore.mapper.read.HardDiskReadMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

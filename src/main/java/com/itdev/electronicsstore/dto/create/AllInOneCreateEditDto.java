@@ -9,15 +9,6 @@ import java.util.Objects;
 
 public class AllInOneCreateEditDto {
 
-//    private final Long serialNumber;
-//    private final String manufacturer;
-//    private final BigDecimal price;
-//    private final Integer quantity;
-//    private final ProductType productType;
-//    private final Double diagonal;
-//    private final Size size;
-//    private final Integer capacity;
-//    private final ComputerType computerType;
     private Long serialNumber;
     private String manufacturer;
     private BigDecimal price;
@@ -30,66 +21,6 @@ public class AllInOneCreateEditDto {
 
     public AllInOneCreateEditDto(){
 
-    }
-
-    public AllInOneCreateEditDto(Long serialNumber, String manufacturer, BigDecimal price, Integer quantity, ProductType productType, Double diagonal, Size size, Integer capacity, ComputerType computerType) {
-        this.serialNumber = serialNumber;
-        this.manufacturer = manufacturer;
-        this.price = price;
-        this.quantity = quantity;
-        this.productType = productType;
-        this.diagonal = diagonal;
-        this.size = size;
-        this.capacity = capacity;
-        this.computerType = computerType;
-    }
-
-    public AllInOneCreateEditDto(Long serialNumber, String manufacturer, BigDecimal price, Integer quantity, ProductType productType, Double diagonal) {
-        this.serialNumber = serialNumber;
-        this.manufacturer = manufacturer;
-        this.price = price;
-        this.quantity = quantity;
-        this.productType = productType;
-        this.diagonal = diagonal;
-        this.size = null;
-        this.capacity = null;
-        this.computerType = null;
-    }
-
-    public AllInOneCreateEditDto(Long serialNumber, String manufacturer, BigDecimal price, Integer quantity, ProductType productType, ComputerType computerType) {
-        this.serialNumber = serialNumber;
-        this.manufacturer = manufacturer;
-        this.price = price;
-        this.quantity = quantity;
-        this.productType = productType;
-        this.computerType = computerType;
-        this.diagonal = null;
-        this.size = null;
-        this.capacity = null;
-    }
-
-    public AllInOneCreateEditDto(Long serialNumber, String manufacturer, BigDecimal price, Integer quantity, ProductType productType, Integer capacity) {
-        this.serialNumber = serialNumber;
-        this.manufacturer = manufacturer;
-        this.price = price;
-        this.quantity = quantity;
-        this.productType = productType;
-        this.capacity = capacity;
-        this.computerType = null;
-        this.diagonal = null;
-        this.size = null;
-    }
-
-    public AllInOneCreateEditDto(Long serialNumber, String manufacturer, BigDecimal price, Integer quantity, ProductType productType, Size size) {
-        this.serialNumber = serialNumber;
-        this.manufacturer = manufacturer;
-        this.price = price;
-        this.quantity = quantity;
-        this.productType = productType;
-        this.size = size;
-        this.capacity = null;
-        this.computerType = null;
-        this.diagonal = null;
     }
 
     @Override

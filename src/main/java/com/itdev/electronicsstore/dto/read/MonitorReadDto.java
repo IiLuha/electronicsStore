@@ -1,6 +1,5 @@
 package com.itdev.electronicsstore.dto.read;
 
-import java.math.BigDecimal;
 import java.util.Objects;
 
 public class MonitorReadDto {
